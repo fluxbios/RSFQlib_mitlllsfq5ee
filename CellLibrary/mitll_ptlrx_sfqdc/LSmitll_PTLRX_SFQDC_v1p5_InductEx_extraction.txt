@@ -1,0 +1,98 @@
+InductEx v5.07.48 (19 February 2020). Copyright 2003-2020 Coenrad Fourie
+Licensed to:
+  SUN Magnetics i9-7940X server, until 31 Dec 2025. [Super with Visualization]
+LSmitll_PTLRX_SFQDC.GDS -n LSmitll_PTLRX_SFQDC_v1p5_idx.cir -l mitll_sfq5ee_set2.ldf -th 
+Techfile mitll_sfq5ee_set2.ldf read: Units in 1E-6 m. AbsMin=0.025 SegmentSize=1
+Spice netlist LSmitll_PTLRX_SFQDC_v1p5_idx.cir read. Totals: L = 29, k = 0, P = 19.
+Total fundamental loops identified in netlist = 16
+Using TetraHenry with analytical integration.
+3001 structures read. Reduced 3001 objects to 2770 polygons and 8 terminals.
+Top level structure is "LSMITLL_PTLRX_SFQDC".
+GDS file LSmitll_PTLRX_SFQDC.GDS read: db units in 1E-9 m, 0.001 units per user unit.
+Object in layer I5 moved to TERM layer. (Pj1)
+Object in layer I5 moved to TERM layer. (Pj2)
+Object in layer I5 moved to TERM layer. (Pj3)
+Object in layer I5 moved to TERM layer. (Pj4)
+Object in layer I5 moved to TERM layer. (Pj5)
+Object in layer I5 moved to TERM layer. (Pj6)
+Object in layer I5 moved to TERM layer. (Pj7)
+Object in layer I5 moved to TERM layer. (Pj8)
+Object in layer I5 moved to TERM layer. (Pj9)
+Object in layer I5 moved to TERM layer. (Pj10)
+Object in layer I5 moved to TERM layer. (Pj11)
+Terminal blocks = 19; Labels = 19; Extracted Ports = 19
+
+Port                  Positive terminal    Negative terminal
+P1                    M6,   line along y;  M4,   same as "+" terminal.
+P2                    M6,   line along y;  M4,   same as "+" terminal.
+PR1                   M6,   polygon;       M4,   same as "+" terminal.
+PB1                   M6,   polygon;       M4,   same as "+" terminal.
+PB2                   M6,   polygon;       M4,   same as "+" terminal.
+PB3                   M6,   polygon;       M4,   same as "+" terminal.
+PB4                   M6,   polygon;       M4,   same as "+" terminal.
+PB5                   M6,   polygon;       M4,   same as "+" terminal.
+J1                    M6,   polygon;       M5,   same as "+" terminal.
+J2                    M6,   polygon;       M5,   same as "+" terminal.
+J3                    M6,   polygon;       M5,   same as "+" terminal.
+J4                    M6,   polygon;       M5,   same as "+" terminal.
+J5                    M5,   polygon;       M6,   same as "+" terminal.
+J6                    M6,   polygon;       M5,   same as "+" terminal.
+J7                    M5,   polygon;       M6,   same as "+" terminal.
+J8                    M6,   polygon;       M5,   same as "+" terminal.
+J9                    M5,   polygon;       M6,   same as "+" terminal.
+J10                   M6,   polygon;       M5,   same as "+" terminal.
+J11                   M6,   polygon;       M5,   same as "+" terminal.
+
+SVD info: Condition nr. = 10.31; unknowns = 58; rank = 58. 
+
+Impedance     Inductance [H]        Resistance [Ohm]      AbsDiff     PercDiff
+Name      Design      Extracted   Design      Extracted   (L only)    (L only)
+L1        --          1.49897E-12 --          --          +1.499E-12  --%
+L2        4.3E-12     4.28097E-12 --          --          -1.9028E-14 -0.4425%
+L3        4.6E-12     4.58405E-12 --          --          -1.5946E-14 -0.34666%
+L4        5E-12       5.02465E-12 --          --          +2.4655E-14 +0.49309%
+L5        3.822E-12   3.79261E-12 --          --          -2.9385E-14 -0.76885%
+L6        8.27E-13    8.30297E-13 --          --          +3.2969E-15 +0.39865%
+L7        1.12884E-12 1.16984E-12 --          --          +4.1002E-14 +3.6322%
+L9        5.94E-12    5.94915E-12 --          --          +9.1498E-15 +0.15404%
+L10       1.111E-12   1.10679E-12 --          --          -4.2145E-15 -0.37934%
+L11       3.216E-12   3.23679E-12 --          --          +2.0788E-14 +0.64639%
+L12       9.1E-13     8.90652E-13 --          --          -1.9348E-14 -2.1262%
+L14       2.15E-13    5.767E-13   --          --          +3.617E-13  +168.23%
+L15       9.54E-13    9.62382E-13 --          --          +8.3823E-15 +0.87865%
+L16       3.699E-12   3.7028E-12  --          --          +3.7977E-15 +0.10267%
+L17       2.01E-12    2.0198E-12  --          --          +9.8041E-15 +0.48776%
+L18       --          2.4843E-12  --          --          +2.4843E-12 --%
+LB1       --          1.26626E-12 --          --          +1.2663E-12 --%
+LB2       --          3.93331E-12 --          --          +3.9333E-12 --%
+LB3       --          1.90746E-12 --          --          +1.9075E-12 --%
+LB4       --          5.3918E-12  --          --          +5.3918E-12 --%
+LB5       --          3.7848E-12  --          --          +3.7848E-12 --%
+LP1       --          5.10892E-13 --          --          +5.1089E-13 --%
+LP2       --          6.02837E-13 --          --          +6.0284E-13 --%
+LP3       --          5.97395E-13 --          --          +5.9739E-13 --%
+LP4       --          4.67037E-13 --          --          +4.6704E-13 --%
+LP6       --          4.99355E-13 --          --          +4.9935E-13 --%
+LP8       --          4.69276E-13 --          --          +4.6928E-13 --%
+LP10      --          5.0831E-13  --          --          +5.0831E-13 --%
+LP11      --          5.23487E-13 --          --          +5.2349E-13 --%
+
+Ports     Design    Extracted AbsDiff   PercDiff
+J1        0.0001      0.00010794
+J2        0.0001      0.00010794
+J3        0.0001      0.00010794
+J4        0.000325    0.00033376
+J5        0.00015     0.00015829
+J6        0.000175    0.00018327
+J7        0.0002      0.00020853
+J8        0.0003      0.00030903
+J9        0.00015     0.00015829
+J10       0.00015     0.00015829
+J11       0.0002      0.00020853
+
+Error bound on extracted values: 1.65942%
+
+Deallocating memory.
+Cycles found in 0.028 seconds.
+SVD solution in 0.028 seconds.
+Job finished in 393.767 seconds.

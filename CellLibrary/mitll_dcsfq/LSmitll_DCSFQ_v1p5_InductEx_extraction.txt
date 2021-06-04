@@ -1,0 +1,51 @@
+InductEx v5.07.48 (19 February 2020). Copyright 2003-2020 Coenrad Fourie
+Licensed to:
+  SUN Magnetics i9-7940X server, until 31 Dec 2025. [Super with Visualization]
+LSmitll_DCSFQ_v1p5.GDS -n LSmitll_DCSFQ_v1p5_idx.cir -l mitll_sfq5ee_set2.ldf -th 
+Techfile mitll_sfq5ee_set2.ldf read: Units in 1E-6 m. AbsMin=0.025 SegmentSize=1
+Spice netlist LSmitll_DCSFQ_v1p5_idx.cir read. Totals: L = 10, k = 0, P = 7.
+Total fundamental loops identified in netlist = 6
+Using TetraHenry with analytical integration.
+838 structures read. Reduced 838 objects to 805 polygons and 4 terminals.
+Top level structure is "LSMITLL_DCSFQ_V1P5".
+GDS file LSmitll_DCSFQ_v1p5.GDS read: db units in 1E-9 m, 0.001 units per user unit.
+Object in layer I5 moved to TERM layer. (Pj1)
+Object in layer I5 moved to TERM layer. (Pj2)
+Object in layer I5 moved to TERM layer. (Pj3)
+Terminal blocks = 7; Labels = 7; Extracted Ports = 7
+
+Port                  Positive terminal    Negative terminal
+P1                    M6,   line along y;  M4,   same as "+" terminal.
+P2                    M6,   line along y;  M4,   same as "+" terminal.
+PB1                   M6,   polygon;       M4,   same as "+" terminal.
+PB2                   M6,   polygon;       M4,   same as "+" terminal.
+J1                    M5,   polygon;       M6,   same as "+" terminal.
+J2                    M6,   polygon;       M5,   same as "+" terminal.
+J3                    M6,   polygon;       M5,   same as "+" terminal.
+
+SVD info: Condition nr. = 7.119; unknowns = 20; rank = 20. 
+
+Impedance     Inductance [H]        Resistance [Ohm]      AbsDiff     PercDiff
+Name      Design      Extracted   Design      Extracted   (L only)    (L only)
+L1        1E-12       1.47068E-12 --          --          +4.7068E-13 +47.068%
+L2        3.9E-12     3.91959E-12 --          --          +1.959E-14  +0.50232%
+L3        6E-13       5.95746E-13 --          --          -4.2537E-15 -0.70894%
+L4        1.1E-12     1.12164E-12 --          --          +2.1639E-14 +1.9672%
+L5        4.5E-12     4.70289E-12 --          --          +2.0289E-13 +4.5087%
+L6        2E-12       1.52806E-12 --          --          -4.7194E-13 -23.597%
+LPB2      --          4.95543E-13 --          --          +4.9554E-13 --%
+LPB3      --          4.20985E-13 --          --          +4.2099E-13 --%
+LB1       --          2.98424E-12 --          --          +2.9842E-12 --%
+LB2       --          2.22935E-12 --          --          +2.2294E-12 --%
+
+Ports     Design    Extracted AbsDiff   PercDiff
+J1        0.000225    0.00023374
+J2        0.000225    0.00023374
+J3        0.00025     0.00025893
+
+Error bound on extracted values: 3.60869%
+
+Deallocating memory.
+Cycles found in 0.026 seconds.
+SVD solution in 0.005 seconds.
+Job finished in 70.993 seconds.

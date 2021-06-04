@@ -1,0 +1,129 @@
+InductEx v5.07.48 (19 February 2020). Copyright 2003-2020 Coenrad Fourie
+Licensed to:
+  SUN Magnetics i9-7940X server, until 31 Dec 2025. [Super with Visualization]
+LSmitll_AND2T_v1p5.GDS -n LSmitll_AND2T_v1p5_idx.cir -l mitll_sfq5ee_set2.ldf -th 
+Techfile mitll_sfq5ee_set2.ldf read: Units in 1E-6 m. AbsMin=0.025 SegmentSize=1
+Spice netlist LSmitll_AND2T_v1p5_idx.cir read. Totals: L = 40, k = 0, P = 28.
+Total fundamental loops identified in netlist = 24
+Using TetraHenry with analytical integration.
+2849 structures read. Reduced 2849 objects to 2647 polygons and 12 terminals.
+Top level structure is "LSMITLL_AND2T_V1P5".
+GDS file LSmitll_AND2T_v1p5.GDS read: db units in 1E-9 m, 0.001 units per user unit.
+Port clk not in netlist. Ignored.
+Object in layer I5 moved to TERM layer. (Pj1)
+Object in layer I5 moved to TERM layer. (Pj2)
+Object in layer I5 moved to TERM layer. (Pj3)
+Object in layer I5 moved to TERM layer. (Pj4)
+Object in layer I5 moved to TERM layer. (Pj5)
+Object in layer I5 moved to TERM layer. (Pj6)
+Object in layer I5 moved to TERM layer. (Pj7)
+Object in layer I5 moved to TERM layer. (Pj8)
+Object in layer I5 moved to TERM layer. (Pj9)
+Object in layer I5 moved to TERM layer. (Pj10)
+Object in layer I5 moved to TERM layer. (Pj11)
+Object in layer I5 moved to TERM layer. (Pj12)
+Object in layer I5 moved to TERM layer. (Pj13)
+Object in layer I5 moved to TERM layer. (Pj14)
+Object in layer I5 moved to TERM layer. (Pj15)
+Object in layer I5 moved to TERM layer. (Pj16)
+Terminal blocks = 28; Labels = 29; Extracted Ports = 28
+
+Port                  Positive terminal    Negative terminal
+P1                    M6,   line along y;  M4,   same as "+" terminal.
+P2                    M6,   line along y;  M4,   same as "+" terminal.
+P3                    M6,   line along y;  M4,   same as "+" terminal.
+P4                    M6,   polygon;       M4,   same as "+" terminal.
+PB1                   M6,   polygon;       M4,   same as "+" terminal.
+PB2                   M6,   polygon;       M4,   same as "+" terminal.
+PB3                   M6,   polygon;       M4,   same as "+" terminal.
+PB4                   M6,   polygon;       M4,   same as "+" terminal.
+PB5                   M6,   polygon;       M4,   same as "+" terminal.
+PB6                   M6,   polygon;       M4,   same as "+" terminal.
+PB7                   M6,   polygon;       M4,   same as "+" terminal.
+PB8                   M6,   polygon;       M4,   same as "+" terminal.
+J1                    M6,   polygon;       M5,   same as "+" terminal.
+J2                    M6,   polygon;       M5,   same as "+" terminal.
+J3                    M6,   polygon;       M5,   same as "+" terminal.
+J4                    M5,   polygon;       M6,   same as "+" terminal.
+J5                    M5,   polygon;       M6,   same as "+" terminal.
+J6                    M6,   polygon;       M5,   same as "+" terminal.
+J7                    M6,   polygon;       M5,   same as "+" terminal.
+J8                    M6,   polygon;       M5,   same as "+" terminal.
+J9                    M6,   polygon;       M5,   same as "+" terminal.
+J10                   M6,   polygon;       M5,   same as "+" terminal.
+J11                   M6,   polygon;       M5,   same as "+" terminal.
+J12                   M6,   polygon;       M5,   same as "+" terminal.
+J13                   M6,   polygon;       M5,   same as "+" terminal.
+J14                   M6,   polygon;       M5,   same as "+" terminal.
+J15                   M6,   polygon;       M5,   same as "+" terminal.
+J16                   M6,   polygon;       M5,   same as "+" terminal.
+
+SVD info: Condition nr. = 8.412; unknowns = 80; rank = 80. 
+
+Impedance     Inductance [H]        Resistance [Ohm]      AbsDiff     PercDiff
+Name      Design      Extracted   Design      Extracted   (L only)    (L only)
+L1        --          1.60073E-12 --          --          +1.6007E-12 --%
+L2        2.23E-12    2.25151E-12 --          --          +2.1505E-14 +0.96436%
+L4        6.105E-12   6.11619E-12 --          --          +1.1188E-14 +0.18326%
+L5        1.2909E-12  1.29165E-12 --          --          +7.4642E-16 +0.057821%
+L6        2.58E-12    2.59574E-12 --          --          +1.574E-14  +0.61009%
+L7        1.1464E-12  1.59839E-12 --          --          +4.5199E-13 +39.427%
+L8        --          3.11847E-12 --          --          +3.1185E-12 --%
+L9        1.9428E-12  1.94567E-12 --          --          +2.8651E-15 +0.14747%
+L11       1.9932E-12  1.98734E-12 --          --          -5.8588E-15 -0.29394%
+L12       --          6.07532E-13 --          --          +6.0753E-13 --%
+L13       --          1.64628E-12 --          --          +1.6463E-12 --%
+L14       2.23E-12    2.22004E-12 --          --          -9.9623E-15 -0.44674%
+L16       6.105E-12   6.02447E-12 --          --          -8.0528E-14 -1.3191%
+L17       1.2909E-12  1.23479E-12 --          --          -5.6106E-14 -4.3463%
+L18       2.58E-12    2.59837E-12 --          --          +1.8368E-14 +0.71195%
+L19       1.1464E-12  1.59255E-12 --          --          +4.4615E-13 +38.918%
+L20       4E-13       8.96801E-13 --          --          +4.968E-13  +124.2%
+L22       2.925E-12   2.96832E-12 --          --          +4.3321E-14 +1.481%
+L23       4.644E-12   4.70343E-12 --          --          +5.943E-14  +1.2797%
+L24       --          2.59567E-12 --          --          +2.5957E-12 --%
+LB1       --          2.57564E-12 --          --          +2.5756E-12 --%
+LB2       --          4.95898E-12 --          --          +4.959E-12  --%
+LB3       --          8.25429E-13 --          --          +8.2543E-13 --%
+LB4       --          9.86159E-13 --          --          +9.8616E-13 --%
+LB5       --          2.61941E-12 --          --          +2.6194E-12 --%
+LB6       --          5.13694E-12 --          --          +5.1369E-12 --%
+LB7       --          8.14214E-13 --          --          +8.1421E-13 --%
+LB8       --          3.19526E-12 --          --          +3.1953E-12 --%
+LP1       --          5.35804E-13 --          --          +5.358E-13  --%
+LP2       --          5.41416E-13 --          --          +5.4142E-13 --%
+LP3       --          5.31678E-13 --          --          +5.3168E-13 --%
+LP6       --          5.4205E-13  --          --          +5.4205E-13 --%
+LP7       --          5.01792E-13 --          --          +5.0179E-13 --%
+LP8       --          5.52821E-13 --          --          +5.5282E-13 --%
+LP9       --          5.37028E-13 --          --          +5.3703E-13 --%
+LP10      --          5.37254E-13 --          --          +5.3725E-13 --%
+LP11      --          5.86571E-13 --          --          +5.8657E-13 --%
+LP14      --          5.36996E-13 --          --          +5.37E-13   --%
+LP15      --          5.39743E-13 --          --          +5.3974E-13 --%
+LP16      --          5.29126E-13 --          --          +5.2913E-13 --%
+
+Ports     Design    Extracted AbsDiff   PercDiff
+J1        0.000088    0.000095735
+J2        0.000176    0.00018464
+J3        0.000132    0.00013971
+J4        0.000113    0.00012116
+J5        0.000153    0.00016161
+J6        0.00009     0.00009764
+J7        0.00015     0.00015829
+J8        0.000117    0.0001249
+J9        0.000088    0.000095735
+J10       0.000176    0.00018464
+J11       0.000132    0.00013971
+J12       0.000113    0.00012116
+J13       0.000153    0.00016161
+J14       0.000126    0.00013429
+J15       0.000204    0.00021285
+J16       0.000227    0.00023609
+
+Error bound on extracted values: 4.50093%
+
+Deallocating memory.
+Cycles found in 0.033 seconds.
+SVD solution in 0.050 seconds.
+Job finished in 410.701 seconds.

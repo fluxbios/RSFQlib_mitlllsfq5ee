@@ -1,0 +1,36 @@
+* Circuit for InductEx extraction (excluding resistors)
+* Author: L. Schindler
+* Version: 1.5.1
+* Last modification date: 18 June 2020
+* Last modification by: L. Schindler
+
+* Inductors
+L1 1 2 
+L2 2 0 3.9p
+L3 2 3 0.6p
+L4 4 6 1.1p
+L5 6 8 4.5p
+L6 8 11 4.5p
+L7 11 14 3.3p
+L8 14 17 
+LP2 7 0
+LP3 9 0
+LP4 12 0
+LP5 15 0
+LB1 4 5
+LB2 8 10
+LB3 11 13
+LB4 14 16
+* Ports
+P1 1 0
+P2 17 0
+PB1 5 0
+PB2 10 0
+PB3 13 0
+PB4 16 0
+J1 3 4 225u
+J2 6 7 225u
+J3 8 9 250u
+J4 11 12 200u
+J5 14 15 162u
+.end
